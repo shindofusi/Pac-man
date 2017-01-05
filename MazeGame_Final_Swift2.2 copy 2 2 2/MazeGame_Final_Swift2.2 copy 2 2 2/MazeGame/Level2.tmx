@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="19" height="19" tilewidth="32" tileheight="32" nextobjectid="487">
+ <tileset firstgid="1" name="chompermazetiles" tilewidth="32" tileheight="32" tilecount="30" columns="10">
+  <image source="../Tilesets/chompermazetiles.png" width="320" height="96"/>
+ </tileset>
+ <tileset firstgid="31" name="chompersprites" tilewidth="32" tileheight="32" tilecount="56" columns="14">
+  <image source="../Tilesets/chompersprites.png" width="448" height="128"/>
+ </tileset>
+ <objectgroup name="Object Layer 1">
+  <object id="1" name="across" type="Boundary" gid="9" x="32" y="32" width="32" height="32"/>
+  <object id="2" name="across" type="Boundary" gid="9" x="64" y="32" width="32" height="32"/>
+  <object id="3" name="across" type="Boundary" gid="9" x="96" y="32" width="32" height="32"/>
+  <object id="4" name="across" type="Boundary" gid="9" x="128" y="32" width="32" height="32"/>
+  <object id="5" name="across" type="Boundary" gid="9" x="160" y="32" width="32" height="32"/>
+  <object id="6" name="across" type="Boundary" gid="9" x="192" y="32" width="32" height="32"/>
+  <object id="7" name="across" type="Boundary" gid="9" x="224" y="32" width="32" height="32"/>
+  <object id="9" name="across" type="Boundary" gid="9" x="256" y="32" width="32" height="32"/>
+  <object id="10" name="across" type="Boundary" gid="9" x="320" y="32" width="32" height="32"/>
+  <object id="11" name="across" type="Boundary" gid="9" x="352" y="32" width="32" height="32"/>
+  <object id="12" name="across" type="Boundary" gid="9" x="384" y="32" width="32" height="32"/>
+  <object id="13" name="across" type="Boundary" gid="9" x="416" y="32" width="32" height="32"/>
+  <object id="14" name="across" type="Boundary" gid="9" x="448" y="32" width="32" height="32"/>
+  <object id="15" name="across" type="Boundary" gid="9" x="480" y="32" width="32" height="32"/>
+  <object id="16" name="across" type="Boundary" gid="9" x="512" y="32" width="32" height="32"/>
+  <object id="17" name="across" type="Boundary" gid="9" x="544" y="32" width="32" height="32"/>
+  <object id="18" name="across" type="Boundary" gid="9" x="544" y="608" width="32" height="32"/>
+  <object id="19" name="across" type="Boundary" gid="9" x="512" y="608" width="32" height="32"/>
+  <object id="20" name="across" type="Boundary" gid="9" x="480" y="608" width="32" height="32"/>
+  <object id="21" name="across" type="Boundary" gid="9" x="448" y="608" width="32" height="32"/>
+  <object id="22" name="across" type="Boundary" gid="9" x="416" y="608" width="32" height="32"/>
+  <object id="23" name="across" type="Boundary" gid="9" x="384" y="608" width="32" height="32"/>
+  <object id="24" name="across" type="Boundary" gid="9" x="352" y="608" width="32" height="32"/>
+  <object id="25" name="across" type="Boundary" gid="9" x="320" y="608" width="32" height="32"/>
+  <object id="27" name="across" type="Boundary" gid="9" x="256" y="608" width="32" height="32"/>
+  <object id="28" name="across" type="Boundary" gid="9" x="224" y="608" width="32" height="32"/>
+  <object id="29" name="across" type="Boundary" gid="9" x="192" y="608" width="32" height="32"/>
+  <object id="30" name="across" type="Boundary" gid="9" x="160" y="608" width="32" height="32"/>
+  <object id="31" name="across" type="Boundary" gid="9" x="128" y="608" width="32" height="32"/>
+  <object id="32" name="across" type="Boundary" gid="9" x="96" y="608" width="32" height="32"/>
+  <object id="33" name="across" type="Boundary" gid="9" x="64" y="608" width="32" height="32"/>
+  <object id="34" name="across" type="Boundary" gid="9" x="32" y="608" width="32" height="32"/>
+  <object id="35" name="down" type="Boundary" gid="17" x="64" y="320" width="32" height="32"/>
+  <object id="36" name="down" type="Boundary" gid="17" x="64" y="352" width="32" height="32"/>
+  <object id="37" name="down" type="Boundary" gid="17" x="64" y="288" width="32" height="32"/>
+  <object id="38" name="down" type="Boundary" gid="17" x="512" y="288" width="32" height="32"/>
+  <object id="39" name="down" type="Boundary" gid="17" x="512" y="320" width="32" height="32"/>
+  <object id="40" name="down" type="Boundary" gid="17" x="512" y="352" width="32" height="32"/>
+  <object id="41" name="down" type="Boundary" gid="17" x="576" y="128" width="32" height="32"/>
+  <object id="42" name="down" type="Boundary" gid="17" x="576" y="64" width="32" height="32"/>
+  <object id="43" name="down" type="Boundary" gid="17" x="576" y="96" width="32" height="32"/>
+  <object id="44" name="down" type="Boundary" gid="17" x="576" y="160" width="32" height="32"/>
+  <object id="45" name="down" type="Boundary" gid="17" x="576" y="192" width="32" height="32"/>
+  <object id="46" name="down" type="Boundary" gid="17" x="576" y="224" width="32" height="32"/>
+  <object id="49" name="down" type="Boundary" gid="17" x="576" y="416" width="32" height="32"/>
+  <object id="50" name="down" type="Boundary" gid="17" x="576" y="448" width="32" height="32"/>
+  <object id="51" name="down" type="Boundary" gid="17" x="576" y="480" width="32" height="32"/>
+  <object id="52" name="down" type="Boundary" gid="17" x="576" y="512" width="32" height="32"/>
+  <object id="53" name="down" type="Boundary" gid="17" x="576" y="544" width="32" height="32"/>
+  <object id="54" name="down" type="Boundary" gid="17" x="576" y="576" width="32" height="32"/>
+  <object id="55" name="down" type="Boundary" gid="17" x="0" y="64" width="32" height="32"/>
+  <object id="56" name="down" type="Boundary" gid="17" x="0" y="128" width="32" height="32"/>
+  <object id="57" name="down" type="Boundary" gid="17" x="0" y="96" width="32" height="32"/>
+  <object id="58" name="down" type="Boundary" gid="17" x="0" y="160" width="32" height="32"/>
+  <object id="59" name="down" type="Boundary" gid="17" x="0" y="192" width="32" height="32"/>
+  <object id="60" name="down" type="Boundary" gid="17" x="0" y="224" width="32" height="32"/>
+  <object id="61" name="down" type="Boundary" gid="17" x="0" y="416" width="32" height="32"/>
+  <object id="62" name="down" type="Boundary" gid="17" x="0" y="448" width="32" height="32"/>
+  <object id="63" name="down" type="Boundary" gid="17" x="0" y="480" width="32" height="32"/>
+  <object id="64" name="down" type="Boundary" gid="17" x="0" y="512" width="32" height="32"/>
+  <object id="65" name="down" type="Boundary" gid="17" x="0" y="544" width="32" height="32"/>
+  <object id="66" name="down" type="Boundary" gid="17" x="0" y="576" width="32" height="32"/>
+  <object id="107" name="down" type="Boundary" gid="17" x="128" y="320" width="32" height="32"/>
+  <object id="108" name="down" type="Boundary" gid="17" x="128" y="352" width="32" height="32"/>
+  <object id="109" name="down" type="Boundary" gid="17" x="128" y="384" width="32" height="32"/>
+  <object id="110" name="down" type="Boundary" gid="17" x="448" y="384" width="32" height="32"/>
+  <object id="111" name="down" type="Boundary" gid="17" x="448" y="352" width="32" height="32"/>
+  <object id="112" name="down" type="Boundary" gid="17" x="448" y="320" width="32" height="32"/>
+  <object id="113" name="down" type="Boundary" gid="17" x="448" y="192" width="32" height="32"/>
+  <object id="114" name="down" type="Boundary" gid="17" x="128" y="192" width="32" height="32"/>
+  <object id="115" name="down" type="Boundary" gid="17" x="288" y="192" width="32" height="32"/>
+  <object id="131" name="down" type="Boundary" gid="17" x="288" y="64" width="32" height="32"/>
+  <object id="133" name="across" type="Boundary" gid="9" x="288" y="608" width="32" height="32"/>
+  <object id="134" name="down" type="Boundary" gid="17" x="288" y="512" width="32" height="32"/>
+  <object id="135" name="down" type="Boundary" gid="17" x="288" y="480" width="32" height="32"/>
+  <object id="155" name="down" type="Boundary" gid="17" x="512" y="512" width="32" height="32"/>
+  <object id="156" name="down" type="Boundary" gid="17" x="512" y="480" width="32" height="32"/>
+  <object id="159" name="down" type="Boundary" gid="17" x="64" y="480" width="32" height="32"/>
+  <object id="160" name="down" type="Boundary" gid="17" x="64" y="512" width="32" height="32"/>
+  <object id="183" name="close_down" type="Boundary" gid="27" x="448" y="416" width="32" height="32"/>
+  <object id="185" name="close_down" type="Boundary" gid="27" x="128" y="416" width="32" height="32"/>
+  <object id="186" name="close_down" type="Boundary" gid="27" x="288" y="224" width="32" height="32"/>
+  <object id="187" name="close_down" type="Boundary" gid="27" x="288" y="96" width="32" height="32"/>
+  <object id="188" name="close_down" type="Boundary" gid="27" x="288" y="544" width="32" height="32"/>
+  <object id="189" name="across" type="Boundary" gid="9" x="32" y="384" width="32" height="32"/>
+  <object id="190" name="across" type="Boundary" gid="9" x="32" y="256" width="32" height="32"/>
+  <object id="191" name="across" type="Boundary" gid="9" x="544" y="256" width="32" height="32"/>
+  <object id="192" name="across" type="Boundary" gid="9" x="544" y="384" width="32" height="32"/>
+  <object id="193" name="across" type="Boundary" gid="9" x="256" y="448" width="32" height="32"/>
+  <object id="194" name="across" type="Boundary" gid="9" x="224" y="448" width="32" height="32"/>
+  <object id="195" name="across" type="Boundary" gid="9" x="320" y="448" width="32" height="32"/>
+  <object id="196" name="across" type="Boundary" gid="9" x="352" y="448" width="32" height="32"/>
+  <object id="197" name="across" type="Boundary" gid="9" x="96" y="544" width="32" height="32"/>
+  <object id="198" name="across" type="Boundary" gid="9" x="128" y="544" width="32" height="32"/>
+  <object id="199" name="across" type="Boundary" gid="9" x="160" y="544" width="32" height="32"/>
+  <object id="200" name="across" type="Boundary" gid="9" x="192" y="544" width="32" height="32"/>
+  <object id="201" name="across" type="Boundary" gid="9" x="384" y="544" width="32" height="32"/>
+  <object id="202" name="across" type="Boundary" gid="9" x="416" y="544" width="32" height="32"/>
+  <object id="203" name="across" type="Boundary" gid="9" x="448" y="544" width="32" height="32"/>
+  <object id="204" name="across" type="Boundary" gid="9" x="480" y="544" width="32" height="32"/>
+  <object id="205" name="across" type="Boundary" gid="9" x="160" y="224" width="32" height="32"/>
+  <object id="207" name="across" type="Boundary" gid="9" x="192" y="224" width="32" height="32"/>
+  <object id="208" name="across" type="Boundary" gid="9" x="384" y="224" width="32" height="32"/>
+  <object id="209" name="across" type="Boundary" gid="9" x="416" y="224" width="32" height="32"/>
+  <object id="210" name="across" type="Boundary" gid="9" x="256" y="160" width="32" height="32"/>
+  <object id="211" name="across" type="Boundary" gid="9" x="224" y="160" width="32" height="32"/>
+  <object id="212" name="across" type="Boundary" gid="9" x="320" y="160" width="32" height="32"/>
+  <object id="213" name="across" type="Boundary" gid="9" x="352" y="160" width="32" height="32"/>
+  <object id="214" name="close_top" type="Boundary" gid="7" x="448" y="288" width="32" height="32"/>
+  <object id="215" name="close_top" type="Boundary" gid="7" x="128" y="288" width="32" height="32"/>
+  <object id="216" name="close_top" type="Boundary" gid="7" x="64" y="448" width="32" height="32"/>
+  <object id="217" name="close_top" type="Boundary" gid="7" x="512" y="448" width="32" height="32"/>
+  <object id="218" name="close_top" type="Boundary" gid="7" x="448" y="160" width="32" height="32"/>
+  <object id="219" name="close_top" type="Boundary" gid="7" x="128" y="160" width="32" height="32"/>
+  <object id="220" name="close_top" type="Boundary" gid="7" x="64" y="160" width="32" height="32"/>
+  <object id="221" name="close_top" type="Boundary" gid="7" x="512" y="160" width="32" height="32"/>
+  <object id="222" name="close_down" type="Boundary" gid="27" x="64" y="192" width="32" height="32"/>
+  <object id="223" name="close_down" type="Boundary" gid="27" x="512" y="192" width="32" height="32"/>
+  <object id="224" name="elbow_br" type="Boundary" gid="26" x="512" y="544" width="32" height="32"/>
+  <object id="225" name="elbow_br" type="Boundary" gid="26" x="576" y="608" width="32" height="32"/>
+  <object id="226" name="elbow_br" type="Boundary" gid="26" x="576" y="256" width="32" height="32"/>
+  <object id="227" name="elbow_br" type="Boundary" gid="26" x="448" y="224" width="32" height="32"/>
+  <object id="228" name="elbow_br" type="Boundary" gid="26" x="352" y="352" width="32" height="32"/>
+  <object id="230" name="elbow_tr" type="Boundary" gid="6" x="64" y="256" width="32" height="32"/>
+  <object id="231" name="elbow_tr" type="Boundary" gid="6" x="576" y="32" width="32" height="32"/>
+  <object id="232" name="elbow_tr" type="Boundary" gid="6" x="352" y="288" width="32" height="32"/>
+  <object id="233" name="elbow_tr" type="Boundary" gid="6" x="576" y="384" width="32" height="32"/>
+  <object id="234" name="elbow_br" type="Boundary" gid="26" x="64" y="384" width="32" height="32"/>
+  <object id="235" name="close_right" type="Boundary" gid="10" x="384" y="160" width="32" height="32"/>
+  <object id="237" name="close_right" type="Boundary" gid="10" x="384" y="448" width="32" height="32"/>
+  <object id="238" name="close_right" type="Boundary" gid="10" x="224" y="544" width="32" height="32"/>
+  <object id="239" name="close_right" type="Boundary" gid="10" x="256" y="288" width="32" height="32"/>
+  <object id="240" name="close_right" type="Boundary" gid="10" x="224" y="96" width="32" height="32"/>
+  <object id="241" name="close_right" type="Boundary" gid="10" x="512" y="96" width="32" height="32"/>
+  <object id="242" name="close_left" type="Boundary" gid="8" x="352" y="96" width="32" height="32"/>
+  <object id="243" name="close_left" type="Boundary" gid="8" x="64" y="96" width="32" height="32"/>
+  <object id="244" name="close_left" type="Boundary" gid="8" x="192" y="160" width="32" height="32"/>
+  <object id="245" name="close_left" type="Boundary" gid="8" x="320" y="288" width="32" height="32"/>
+  <object id="246" name="close_left" type="Boundary" gid="8" x="352" y="544" width="32" height="32"/>
+  <object id="247" name="close_left" type="Boundary" gid="8" x="192" y="448" width="32" height="32"/>
+  <object id="248" name="close_left" type="Boundary" gid="8" x="352" y="224" width="32" height="32"/>
+  <object id="249" name="close_right" type="Boundary" gid="10" x="224" y="224" width="32" height="32"/>
+  <object id="252" name="down" type="Boundary" gid="17" x="224" y="320" width="32" height="32"/>
+  <object id="253" name="across" type="Boundary" gid="9" x="256" y="352" width="32" height="32"/>
+  <object id="254" name="across" type="Boundary" gid="9" x="288" y="352" width="32" height="32"/>
+  <object id="255" name="across" type="Boundary" gid="9" x="320" y="352" width="32" height="32"/>
+  <object id="256" name="elbow_bl" type="Boundary" gid="24" x="64" y="544" width="32" height="32"/>
+  <object id="257" name="elbow_bl" type="Boundary" gid="24" x="224" y="352" width="32" height="32"/>
+  <object id="258" name="elbow_bl" type="Boundary" gid="24" x="0" y="256" width="32" height="32"/>
+  <object id="259" name="elbow_bl" type="Boundary" gid="24" x="128" y="224" width="32" height="32"/>
+  <object id="260" name="elbow_tl" type="Boundary" gid="4" x="0" y="384" width="32" height="32"/>
+  <object id="261" name="elbow_tl" type="Boundary" gid="4" x="224" y="288" width="32" height="32"/>
+  <object id="262" name="elbow_tl" type="Boundary" gid="4" x="512" y="256" width="32" height="32"/>
+  <object id="263" name="elbow_tl" type="Boundary" gid="4" x="0" y="32" width="32" height="32"/>
+  <object id="264" name="elbow_bl" type="Boundary" gid="24" x="0" y="608" width="32" height="32"/>
+  <object id="265" name="elbow_bl" type="Boundary" gid="24" x="512" y="384" width="32" height="32"/>
+  <object id="266" name="across" type="Boundary" gid="9" x="96" y="96" width="32" height="32"/>
+  <object id="267" name="across" type="Boundary" gid="9" x="128" y="96" width="32" height="32"/>
+  <object id="268" name="across" type="Boundary" gid="9" x="160" y="96" width="32" height="32"/>
+  <object id="269" name="across" type="Boundary" gid="9" x="192" y="96" width="32" height="32"/>
+  <object id="270" name="across" type="Boundary" gid="9" x="384" y="96" width="32" height="32"/>
+  <object id="271" name="across" type="Boundary" gid="9" x="416" y="96" width="32" height="32"/>
+  <object id="272" name="across" type="Boundary" gid="9" x="448" y="96" width="32" height="32"/>
+  <object id="273" name="across" type="Boundary" gid="9" x="480" y="96" width="32" height="32"/>
+  <object id="274" name="three_u" type="Boundary" gid="5" x="288" y="32" width="32" height="32"/>
+  <object id="275" name="three_u" type="Boundary" gid="5" x="288" y="448" width="32" height="32"/>
+  <object id="276" name="three_u" type="Boundary" gid="5" x="288" y="160" width="32" height="32"/>
+  <object id="277" name="StartingPoint" type="Portal" gid="41" x="288" y="384" width="32" height="32"/>
+  <object id="279" name="enemy1" type="Enemy" gid="31" x="288" y="288" width="32" height="32"/>
+  <object id="280" name="enemy2" type="Enemy" gid="33" x="256" y="320" width="32" height="32"/>
+  <object id="281" name="enemy3" type="Enemy" gid="35" x="288" y="320" width="32" height="32"/>
+  <object id="282" name="enemy4" type="Enemy" gid="37" x="320" y="320" width="32" height="32"/>
+  <object id="284" type="speed" gid="29" x="480" y="512" width="32" height="32"/>
+  <object id="286" type="speed" gid="29" x="96" y="512" width="32" height="32"/>
+  <object id="287" type="speed" gid="29" x="416" y="192" width="32" height="32"/>
+  <object id="288" type="speed" gid="29" x="160" y="192" width="32" height="32"/>
+  <object id="289" type="ghosting" gid="28" x="32" y="576" width="32" height="32"/>
+  <object id="290" type="ghosting" gid="28" x="544" y="576" width="32" height="32"/>
+  <object id="291" type="ghosting" gid="28" x="544" y="64" width="32" height="32"/>
+  <object id="292" type="ghosting" gid="28" x="32" y="64" width="32" height="32"/>
+  <object id="293" type="teleport" gid="20" x="288" y="128" width="32" height="32"/>
+  <object id="294" type="teleport" gid="20" x="288" y="576" width="32" height="32"/>
+  <object id="295" type="Star" gid="30" x="64" y="64" width="32" height="32"/>
+  <object id="296" type="Star" gid="30" x="96" y="64" width="32" height="32"/>
+  <object id="297" type="Star" gid="30" x="128" y="64" width="32" height="32"/>
+  <object id="298" type="Star" gid="30" x="160" y="64" width="32" height="32"/>
+  <object id="299" type="Star" gid="30" x="192" y="64" width="32" height="32"/>
+  <object id="300" type="Star" gid="30" x="224" y="64" width="32" height="32"/>
+  <object id="301" type="Star" gid="30" x="256" y="64" width="32" height="32"/>
+  <object id="302" type="Star" gid="30" x="256" y="96" width="32" height="32"/>
+  <object id="303" type="Star" gid="30" x="256" y="128" width="32" height="32"/>
+  <object id="304" type="Star" gid="30" x="224" y="128" width="32" height="32"/>
+  <object id="305" type="Star" gid="30" x="192" y="128" width="32" height="32"/>
+  <object id="306" type="Star" gid="30" x="160" y="128" width="32" height="32"/>
+  <object id="307" type="Star" gid="30" x="128" y="128" width="32" height="32"/>
+  <object id="308" type="Star" gid="30" x="96" y="128" width="32" height="32"/>
+  <object id="309" type="Star" gid="30" x="64" y="128" width="32" height="32"/>
+  <object id="310" type="Star" gid="30" x="32" y="128" width="32" height="32"/>
+  <object id="311" type="Star" gid="30" x="32" y="96" width="32" height="32"/>
+  <object id="312" type="Star" gid="30" x="32" y="160" width="32" height="32"/>
+  <object id="313" type="Star" gid="30" x="32" y="192" width="32" height="32"/>
+  <object id="314" type="Star" gid="30" x="64" y="224" width="32" height="32"/>
+  <object id="315" type="Star" gid="30" x="96" y="224" width="32" height="32"/>
+  <object id="316" type="Star" gid="30" x="96" y="192" width="32" height="32"/>
+  <object id="317" type="Star" gid="30" x="96" y="160" width="32" height="32"/>
+  <object id="318" type="Star" gid="30" x="160" y="160" width="32" height="32"/>
+  <object id="319" type="Star" gid="30" x="192" y="192" width="32" height="32"/>
+  <object id="320" type="Star" gid="30" x="224" y="192" width="32" height="32"/>
+  <object id="321" type="Star" gid="30" x="256" y="192" width="32" height="32"/>
+  <object id="322" type="Star" gid="30" x="256" y="224" width="32" height="32"/>
+  <object id="323" type="Star" gid="30" x="544" y="576" width="32" height="32"/>
+  <object id="324" type="Star" gid="30" x="480" y="576" width="32" height="32"/>
+  <object id="325" type="Star" gid="30" x="320" y="384" width="32" height="32"/>
+  <object id="326" type="Star" gid="30" x="320" y="416" width="32" height="32"/>
+  <object id="327" type="Star" gid="30" x="288" y="416" width="32" height="32"/>
+  <object id="328" type="Star" gid="30" x="256" y="416" width="32" height="32"/>
+  <object id="329" type="Star" gid="30" x="256" y="384" width="32" height="32"/>
+  <object id="330" type="Star" gid="30" x="96" y="480" width="32" height="32"/>
+  <object id="331" type="Star" gid="30" x="128" y="480" width="32" height="32"/>
+  <object id="332" type="Star" gid="30" x="128" y="512" width="32" height="32"/>
+  <object id="333" type="Star" gid="30" x="32" y="544" width="32" height="32"/>
+  <object id="334" type="Star" gid="30" x="64" y="576" width="32" height="32"/>
+  <object id="335" type="Star" gid="30" x="480" y="480" width="32" height="32"/>
+  <object id="336" type="Star" gid="30" x="448" y="512" width="32" height="32"/>
+  <object id="337" type="Star" gid="30" x="416" y="160" width="32" height="32"/>
+  <object id="338" type="Star" gid="30" x="352" y="192" width="32" height="32"/>
+  <object id="339" type="Star" gid="30" x="384" y="192" width="32" height="32"/>
+  <object id="340" type="Star" gid="30" x="320" y="192" width="32" height="32"/>
+  <object id="341" type="Star" gid="30" x="320" y="224" width="32" height="32"/>
+  <object id="342" type="Star" gid="30" x="128" y="256" width="32" height="32"/>
+  <object id="343" type="Star" gid="30" x="96" y="256" width="32" height="32"/>
+  <object id="344" type="Star" gid="30" x="96" y="288" width="32" height="32"/>
+  <object id="345" type="Star" gid="30" x="96" y="320" width="32" height="32"/>
+  <object id="346" type="Star" gid="30" x="96" y="352" width="32" height="32"/>
+  <object id="347" type="Star" gid="30" x="96" y="384" width="32" height="32"/>
+  <object id="348" type="Star" gid="30" x="96" y="416" width="32" height="32"/>
+  <object id="349" type="Star" gid="30" x="64" y="416" width="32" height="32"/>
+  <object id="350" type="Star" gid="30" x="32" y="416" width="32" height="32"/>
+  <object id="351" type="Star" gid="30" x="32" y="448" width="32" height="32"/>
+  <object id="352" type="Star" gid="30" x="32" y="480" width="32" height="32"/>
+  <object id="353" type="Star" gid="30" x="32" y="512" width="32" height="32"/>
+  <object id="354" type="Star" gid="30" x="128" y="448" width="32" height="32"/>
+  <object id="355" type="Star" gid="30" x="96" y="448" width="32" height="32"/>
+  <object id="356" type="Star" gid="30" x="160" y="448" width="32" height="32"/>
+  <object id="357" type="Star" gid="30" x="160" y="512" width="32" height="32"/>
+  <object id="359" type="Star" gid="30" x="128" y="512" width="32" height="32"/>
+  <object id="360" type="Star" gid="30" x="160" y="480" width="32" height="32"/>
+  <object id="361" type="Star" gid="30" x="256" y="480" width="32" height="32"/>
+  <object id="362" type="Star" gid="30" x="224" y="480" width="32" height="32"/>
+  <object id="363" type="Star" gid="30" x="192" y="480" width="32" height="32"/>
+  <object id="364" type="Star" gid="30" x="192" y="512" width="32" height="32"/>
+  <object id="365" type="Star" gid="30" x="256" y="512" width="32" height="32"/>
+  <object id="366" type="Star" gid="30" x="224" y="512" width="32" height="32"/>
+  <object id="367" type="Star" gid="30" x="96" y="576" width="32" height="32"/>
+  <object id="368" type="Star" gid="30" x="128" y="576" width="32" height="32"/>
+  <object id="369" type="Star" gid="30" x="160" y="576" width="32" height="32"/>
+  <object id="370" type="Star" gid="30" x="192" y="576" width="32" height="32"/>
+  <object id="371" type="Star" gid="30" x="224" y="576" width="32" height="32"/>
+  <object id="372" type="Star" gid="30" x="256" y="576" width="32" height="32"/>
+  <object id="373" type="Star" gid="30" x="256" y="544" width="32" height="32"/>
+  <object id="374" type="Star" gid="30" x="288" y="576" width="32" height="32"/>
+  <object id="375" type="Star" gid="30" x="320" y="576" width="32" height="32"/>
+  <object id="376" type="Star" gid="30" x="352" y="576" width="32" height="32"/>
+  <object id="377" type="Star" gid="30" x="384" y="576" width="32" height="32"/>
+  <object id="378" type="Star" gid="30" x="416" y="576" width="32" height="32"/>
+  <object id="379" type="Star" gid="30" x="448" y="576" width="32" height="32"/>
+  <object id="380" type="Star" gid="30" x="480" y="576" width="32" height="32"/>
+  <object id="381" type="Star" gid="30" x="512" y="576" width="32" height="32"/>
+  <object id="382" type="Star" gid="30" x="544" y="576" width="32" height="32"/>
+  <object id="383" type="Star" gid="30" x="544" y="544" width="32" height="32"/>
+  <object id="384" type="Star" gid="30" x="544" y="512" width="32" height="32"/>
+  <object id="385" type="Star" gid="30" x="544" y="480" width="32" height="32"/>
+  <object id="386" type="Star" gid="30" x="544" y="448" width="32" height="32"/>
+  <object id="387" type="Star" gid="30" x="544" y="416" width="32" height="32"/>
+  <object id="388" type="Star" gid="30" x="512" y="416" width="32" height="32"/>
+  <object id="389" type="Star" gid="30" x="480" y="416" width="32" height="32"/>
+  <object id="390" type="Star" gid="30" x="480" y="448" width="32" height="32"/>
+  <object id="391" type="Star" gid="30" x="448" y="480" width="32" height="32"/>
+  <object id="392" type="Star" gid="30" x="448" y="448" width="32" height="32"/>
+  <object id="393" type="Star" gid="30" x="416" y="448" width="32" height="32"/>
+  <object id="394" type="Star" gid="30" x="416" y="480" width="32" height="32"/>
+  <object id="395" type="Star" gid="30" x="416" y="512" width="32" height="32"/>
+  <object id="396" type="Star" gid="30" x="384" y="512" width="32" height="32"/>
+  <object id="397" type="Star" gid="30" x="352" y="512" width="32" height="32"/>
+  <object id="398" type="Star" gid="30" x="320" y="512" width="32" height="32"/>
+  <object id="399" type="Star" gid="30" x="320" y="544" width="32" height="32"/>
+  <object id="400" type="Star" gid="30" x="320" y="480" width="32" height="32"/>
+  <object id="401" type="Star" gid="30" x="352" y="480" width="32" height="32"/>
+  <object id="402" type="Star" gid="30" x="384" y="480" width="32" height="32"/>
+  <object id="403" type="Star" gid="30" x="416" y="416" width="32" height="32"/>
+  <object id="404" type="Star" gid="30" x="384" y="416" width="32" height="32"/>
+  <object id="405" type="Star" gid="30" x="352" y="416" width="32" height="32"/>
+  <object id="406" type="Star" gid="30" x="320" y="416" width="32" height="32"/>
+  <object id="407" type="Star" gid="30" x="288" y="416" width="32" height="32"/>
+  <object id="408" type="Star" gid="30" x="256" y="416" width="32" height="32"/>
+  <object id="409" type="Star" gid="30" x="224" y="416" width="32" height="32"/>
+  <object id="410" type="Star" gid="30" x="192" y="416" width="32" height="32"/>
+  <object id="411" type="Star" gid="30" x="160" y="416" width="32" height="32"/>
+  <object id="412" type="Star" gid="30" x="160" y="384" width="32" height="32"/>
+  <object id="413" type="Star" gid="30" x="192" y="384" width="32" height="32"/>
+  <object id="415" type="Star" gid="30" x="224" y="384" width="32" height="32"/>
+  <object id="416" type="Star" gid="30" x="352" y="384" width="32" height="32"/>
+  <object id="417" type="Star" gid="30" x="384" y="384" width="32" height="32"/>
+  <object id="418" type="Star" gid="30" x="416" y="384" width="32" height="32"/>
+  <object id="419" type="Star" gid="30" x="480" y="384" width="32" height="32"/>
+  <object id="420" type="Star" gid="30" x="480" y="352" width="32" height="32"/>
+  <object id="421" type="Star" gid="30" x="480" y="320" width="32" height="32"/>
+  <object id="422" type="Star" gid="30" x="480" y="288" width="32" height="32"/>
+  <object id="423" type="Star" gid="30" x="480" y="256" width="32" height="32"/>
+  <object id="424" type="Star" gid="30" x="480" y="224" width="32" height="32"/>
+  <object id="425" type="Star" gid="30" x="512" y="224" width="32" height="32"/>
+  <object id="426" type="Star" gid="30" x="544" y="224" width="32" height="32"/>
+  <object id="427" type="Star" gid="30" x="544" y="192" width="32" height="32"/>
+  <object id="428" type="Star" gid="30" x="544" y="160" width="32" height="32"/>
+  <object id="429" type="Star" gid="30" x="544" y="128" width="32" height="32"/>
+  <object id="430" type="Star" gid="30" x="544" y="96" width="32" height="32"/>
+  <object id="431" type="Star" gid="30" x="512" y="128" width="32" height="32"/>
+  <object id="432" type="Star" gid="30" x="480" y="128" width="32" height="32"/>
+  <object id="433" type="Star" gid="30" x="480" y="160" width="32" height="32"/>
+  <object id="434" type="Star" gid="30" x="480" y="192" width="32" height="32"/>
+  <object id="435" type="Star" gid="30" x="448" y="256" width="32" height="32"/>
+  <object id="436" type="Star" gid="30" x="416" y="256" width="32" height="32"/>
+  <object id="437" type="Star" gid="30" x="384" y="256" width="32" height="32"/>
+  <object id="438" type="Star" gid="30" x="384" y="288" width="32" height="32"/>
+  <object id="439" type="Star" gid="30" x="416" y="288" width="32" height="32"/>
+  <object id="440" type="Star" gid="30" x="416" y="320" width="32" height="32"/>
+  <object id="441" type="Star" gid="30" x="384" y="320" width="32" height="32"/>
+  <object id="442" type="Star" gid="30" x="384" y="352" width="32" height="32"/>
+  <object id="443" type="Star" gid="30" x="416" y="352" width="32" height="32"/>
+  <object id="444" type="Star" gid="30" x="352" y="256" width="32" height="32"/>
+  <object id="445" type="Star" gid="30" x="320" y="256" width="32" height="32"/>
+  <object id="446" type="Star" gid="30" x="288" y="256" width="32" height="32"/>
+  <object id="447" type="Star" gid="30" x="256" y="256" width="32" height="32"/>
+  <object id="448" type="Star" gid="30" x="224" y="256" width="32" height="32"/>
+  <object id="449" type="Star" gid="30" x="192" y="256" width="32" height="32"/>
+  <object id="450" type="Star" gid="30" x="160" y="256" width="32" height="32"/>
+  <object id="451" type="Star" gid="30" x="128" y="256" width="32" height="32"/>
+  <object id="452" type="Star" gid="30" x="160" y="288" width="32" height="32"/>
+  <object id="453" type="Star" gid="30" x="192" y="288" width="32" height="32"/>
+  <object id="454" type="Star" gid="30" x="192" y="320" width="32" height="32"/>
+  <object id="455" type="Star" gid="30" x="160" y="320" width="32" height="32"/>
+  <object id="456" type="Star" gid="30" x="160" y="352" width="32" height="32"/>
+  <object id="457" type="Star" gid="30" x="192" y="352" width="32" height="32"/>
+  <object id="458" type="Star" gid="30" x="256" y="192" width="32" height="32"/>
+  <object id="459" type="Star" gid="30" x="224" y="192" width="32" height="32"/>
+  <object id="460" type="Star" gid="30" x="192" y="192" width="32" height="32"/>
+  <object id="461" type="Star" gid="30" x="320" y="192" width="32" height="32"/>
+  <object id="462" type="Star" gid="30" x="352" y="192" width="32" height="32"/>
+  <object id="463" type="Star" gid="30" x="384" y="192" width="32" height="32"/>
+  <object id="464" type="Star" gid="30" x="64" y="64" width="32" height="32"/>
+  <object id="465" type="Star" gid="30" x="96" y="64" width="32" height="32"/>
+  <object id="466" type="Star" gid="30" x="128" y="64" width="32" height="32"/>
+  <object id="467" type="Star" gid="30" x="160" y="64" width="32" height="32"/>
+  <object id="468" type="Star" gid="30" x="192" y="64" width="32" height="32"/>
+  <object id="469" type="Star" gid="30" x="224" y="64" width="32" height="32"/>
+  <object id="470" type="Star" gid="30" x="256" y="64" width="32" height="32"/>
+  <object id="471" type="Star" gid="30" x="320" y="96" width="32" height="32"/>
+  <object id="472" type="Star" gid="30" x="320" y="64" width="32" height="32"/>
+  <object id="473" type="Star" gid="30" x="352" y="64" width="32" height="32"/>
+  <object id="474" type="Star" gid="30" x="384" y="64" width="32" height="32"/>
+  <object id="475" type="Star" gid="30" x="416" y="64" width="32" height="32"/>
+  <object id="476" type="Star" gid="30" x="448" y="64" width="32" height="32"/>
+  <object id="477" type="Star" gid="30" x="480" y="64" width="32" height="32"/>
+  <object id="478" type="Star" gid="30" x="512" y="64" width="32" height="32"/>
+  <object id="479" type="Star" gid="30" x="416" y="128" width="32" height="32"/>
+  <object id="480" type="Star" gid="30" x="384" y="128" width="32" height="32"/>
+  <object id="481" type="Star" gid="30" x="352" y="128" width="32" height="32"/>
+  <object id="486" name="down" type="Boundary" gid="17" x="352" y="320" width="32" height="32"/>
+ </objectgroup>
+</map>

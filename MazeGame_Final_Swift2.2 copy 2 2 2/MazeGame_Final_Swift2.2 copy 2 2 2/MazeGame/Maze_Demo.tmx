@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="200" tilewidth="10" tileheight="10">
+ <tileset firstgid="1" name="enemy1" tilewidth="45" tileheight="45">
+  <image source="../../Assets/enemy1.png" width="45" height="45"/>
+ </tileset>
+ <objectgroup name="Object Layer 1">
+  <object type="Boundary" x="380" y="90" width="100" height="110"/>
+  <object type="Boundary" x="530" y="90" width="100" height="110"/>
+  <object type="Boundary" x="530" y="250" width="100" height="110"/>
+  <object type="Boundary" x="380" y="250" width="100" height="110"/>
+  <object name="StartingPoint" type="Portal" x="320" y="220" width="10" height="10"/>
+ </objectgroup>
+</map>
